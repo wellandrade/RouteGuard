@@ -1,0 +1,11 @@
+<form [formGroup]="form">
+    <mat-form-field>
+        <input matInput name="name" placeholder="Product Name" formControlName="name" autocomplete="off">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <input matInput name="quantity" placeholder="Product Quantity" formControlName="quantity" autocomplete="off" >
+    </mat-form-field>
+    <br>
+    <button mat-raised-button>Save</button>
+</form>

@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Tem certeza?</h1>
+<mat-dialog-content>
+    <p>Seus dados não foram salvos, considere salva-los antes de sair da pagina</p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancelar</button>
+    <button mat-button [mat-dialog-close]="true" mat-dialog-button cdlFocusInitial>Salvar</button>
+</mat-dialog-actions>

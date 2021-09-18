@@ -1,0 +1,14 @@
+span{
+    padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+a:hover {
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
